@@ -12,7 +12,7 @@ import (
 )
 
 // MinPassLength is the minimum acceptable password length
-const MinPassLength = 8
+const MinPassLength = 0
 
 // GetPassword will prompt for a password one-time (to sign a tx)
 // It enforces the password length
